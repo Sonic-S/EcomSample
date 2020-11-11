@@ -3,11 +3,13 @@
  .banner_b:hover {
     background-color: #C4242A;
     color: #F6E701; 
+    cursor: pointer;
 
 }
 .second_banner_b:hover{
      background-color: #C4242A;
     color: #F6E701; 
+    cursor: pointer;
 }
 /* ========================================================================================================= */
 /* ==========================           MOBILE/TABLET           ============================================ */
