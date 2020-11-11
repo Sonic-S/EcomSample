@@ -1,0 +1,493 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    background-color: #ffffff;
+
+}
+.d-flex {
+    display: flex;
+}
+.jc-center{
+    justify-content: center;
+}
+.ta-center{
+    text-align: center;
+}
+
+
+.carousel .indicators .indicator-item {
+    height: 5px;
+    width: 5px;
+    background-color: #C4C4C4;
+}
+.carousel .indicators .indicator-item.active {
+    background-color: #FFE90B;
+}
+
+
+
+.md-20{
+    font-size: 20px;
+}
+.md-18 { font-size: 18px; }
+.space{
+    height: 36px;
+}
+
+/* ========================================================================================================= */
+/* ==========================           MOBILE/TABLET           ============================================ */
+/* ========================================================================================================= */
+
+@media only screen and (max-width: 999px) {
+
+    .icons_1_1{
+        position: relative;
+        margin-right: 8px;
+    }
+    .dot{
+        background-color: #ffe301;
+        padding: 0px 4px;
+        border-radius: 50%;
+        position: absolute;
+        margin: -12px -6px;
+        font-size: 12px;
+    }
+    .raj_nav_logo img {
+        height: auto;
+        width: 102px;
+        padding-left: 12px;
+    }
+    .raj_main{
+        display: none;
+    }
+    .raj_nav_logo {
+        align-items: center;
+    }
+    header, .footer_wrapper{
+        background-color: #f6f2e9 ;
+    }
+    
+    .raj_nav{
+        background-color: #f6f2e9; 
+    }
+    .raj_header{
+        align-items: center;
+        
+        
+    }
+    
+    
+    a.sidenav-trigger {
+        color: #C4242E;
+        padding-right: 12px;
+    
+    }
+    .sidenav-logo img{
+        width: 35%;
+        margin-bottom: 16px;
+        margin-left: 14px;
+    }
+    .sidenav li a{
+        height: 40px;
+    }
+    
+    header{
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    
+    }
+    .icons_1{
+        align-items: center;
+    }
+    
+    .icons_1_1{
+        color: #C4242E;
+        padding-right: 22px;
+    }
+
+
+
+
+
+
+
+
+
+    /* =============    FOOTER CSS    ======================= */
+
+.footer_wrapper{
+    padding: 20px 14px 20px 12px;
+    justify-content: space-between;
+}
+.fl_heading{
+    font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+
+letter-spacing: 0.02em;
+
+color: #C9232A;
+
+}
+
+.fl_city{
+    font-family: 'Montserrat', sans-serif;  
+font-style: normal;
+font-weight: 500;
+font-size: 8px;
+line-height: 10px;
+letter-spacing: 0.02em;
+padding-top: 4px;
+padding-bottom: 24px;
+
+color: #000000;
+
+}
+.fl_copyright{
+    
+    font-family: 'Montserrat', sans-serif;    
+font-weight: 500;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 0.02em;
+padding-bottom: 6px;
+color: #C5242A;
+
+}
+.fl_design{
+    font-family: 'Montserrat', sans-serif;   
+font-weight: 500;
+font-size: 8px;
+line-height: 10px;
+letter-spacing: 0.02em;
+
+color: #000000;
+
+}
+.fr {
+    font-family: 'Montserrat', sans-serif;    
+font-style: normal;
+font-weight: 500;
+font-size: 9px;
+line-height: 18px;
+letter-spacing: 0.02em;
+
+color: #000000;
+
+}
+.md-8{
+    font-size: 8px;
+}
+
+
+}
+
+
+
+@media only screen and (min-width: 1000px) and (max-width: 1280px) {
+
+
+    .car_ic{
+        position: relative;
+        margin-right: 8px;
+    }
+    .dot{
+        background-color: #ffe301;
+        padding: 0px 4px;
+        border-radius: 50%;
+        position: absolute;
+        margin: -16px -10px;
+        font-size: 14px;
+    }
+    /* footer{
+        display: none;
+    } */
+    .raj_header{
+        display: none;
+    }
+
+    .raj_nav{
+        display: none;
+    }
+    .raj_logo img{ 
+        float: left;
+        width: 120px;
+        height: auto;
+        margin-right: 16px;
+        
+    
+    }
+   
+.raj_nav_nav{
+    font-family: 'Montserrat', sans-serif;
+    padding: 32px 24px 32px;
+    align-items: center;
+    background-color: #f6f2e9;
+    justify-content: space-between;
+}
+.raj_nav_1{
+    align-items: center;
+}
+.nav_links_child {
+    margin-left: 16px;
+}
+.nav-links a span {
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    /* padding: 5px 5px; */
+    transition: 0.5s ease;
+    font-weight: bold;
+    letter-spacing: 0.02rem;
+}
+.i1, .i2, .i3 {
+    margin-left: 8px;
+}
+
+
+
+
+    /* =============    FOOTER CSS    ======================= */
+
+    .footer_wrapper{
+        padding: 32px;
+        justify-content: space-between;
+        background-color: #f6f2e9;
+    }
+    .fl_heading{
+        font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    
+    letter-spacing: 0.02em;
+    
+    color: #C9232A;
+    
+    }
+    
+    .fl_city{
+        font-family: 'Montserrat', sans-serif;  
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    padding-top: 16px;
+    padding-bottom: 32px;
+    
+    color: #000000;
+    
+    }
+    .fl_copyright{
+        
+        font-family: 'Montserrat', sans-serif;    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    padding-bottom: 6px;
+    color: #C5242A;
+    align-items: center;
+    
+    }
+    .fl_design{
+        font-family: 'Montserrat', sans-serif;   
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    
+    color: #000000;
+    
+    }
+    .fr {
+        font-family: 'Montserrat', sans-serif;    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    
+    color: #000000;
+    
+    }
+    .fr1, .fr2, .fr3, .fr4, .fr5{
+        margin-bottom: 12px;
+    }
+    .md-8{
+        font-size: 14px;
+    }
+    
+
+
+
+
+
+}
+
+@media only screen and (min-width: 1281px) {
+   
+    .car_ic{
+        position: relative;
+        margin-right: 8px;
+    }
+    .dot{
+        background-color: #ffe301;
+        padding: 0px 4px;
+        border-radius: 50%;
+        position: absolute;
+        margin: -16px -10px;
+        font-size: 14px;
+    }
+    
+    .raj_header{
+        display: none;
+    }
+
+    .raj_nav{
+        display: none;
+    }
+    .raj_nav_nav{
+        font-family: 'Montserrat', sans-serif;
+        align-items: center;
+        background-color: #f6f2e9;
+       
+        justify-content: space-between;
+        padding: 56px 60px 24px;
+        
+    
+    }
+    .raj_logo img{ 
+        float: left;
+        width: 150px;
+        height: auto;
+        margin-right: 16px;
+        
+    
+    }
+    .nav_links_child{
+        margin-left: 16px;
+    }
+    
+    .raj_nav_nav ul li a{
+        font-weight: bold ;
+    }
+    
+      .nav_links_child:hover{
+        color: #d0222a;
+      }
+    .raj_icons{
+        align-items: center;
+        color: black;
+        
+    
+    
+    } 
+    .time_text{
+        font-size: 14px;
+    }
+    
+    .i1, .i2, .i3{
+        margin-left: 16px;
+    }
+    
+    
+    
+    .raj_nav_1{
+        align-items: center;
+    }
+    .nav-links a span{
+        color: black;
+        text-decoration: none;
+        font-size: 16px;
+        padding: 5px 5px;
+        transition: 0.5s ease;
+        font-weight:bold ;
+        letter-spacing: 0.02rem;
+    }
+
+
+
+     /* =============    FOOTER CSS    ======================= */
+
+     .footer_wrapper{
+        padding: 56px 60px 40px;
+        justify-content: space-between;
+        background-color: #f6f2e9;
+    }
+    .fl_heading{
+        font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 30px;
+    
+    letter-spacing: 0.02em;
+    
+    color: #C9232A;
+    
+    }
+    
+    .fl_city{
+        font-family: 'Montserrat', sans-serif;  
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    padding-top: 16px;
+    padding-bottom: 32px;
+    
+    color: #000000;
+    
+    }
+    .fl_copyright{
+        
+        font-family: 'Montserrat', sans-serif;    
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    padding-bottom: 10px;
+    color: #C5242A;
+    align-items: center;
+    
+    }
+    .fl_design{
+        font-family: 'Montserrat', sans-serif;   
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    
+    color: #000000;
+    
+    }
+    .fr {
+        font-family: 'Montserrat', sans-serif;    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    
+    color: #000000;
+    
+    }
+    .fr1, .fr2, .fr3, .fr4, .fr5{
+        margin-bottom: 24px;
+    }
+    .md-8{
+        font-size: 14px;
+    }
+    
+
+
+
+
+
+}
+
+

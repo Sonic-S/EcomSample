@@ -1,0 +1,246 @@
+
+/* ========================================================================================================= */
+/* ==========================           MOBILE/TABLET           ============================================ */
+/* ========================================================================================================= */
+
+@media only screen and (max-width: 599px) {
+
+    .about_wrapper{
+        padding: 0 16px 0 14px;
+    }
+
+
+    .about_heading{
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.02em;
+
+        color: black;
+        padding: 24px 0px 16px 0px;
+
+    }
+    .about_cover1{
+        width: 330px;
+        height: 223px;
+        object-fit: contain;
+    }
+    .about_cover{
+        align-items: center;
+    }
+
+    .about_des1{
+        font-family: 'Lato',sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 0.06em;
+        padding-top: 16px;
+        color: #1d1d1d;
+    }
+
+
+    .quote{
+        font-family: 'Lato',sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 0.05em;
+        padding-top: 16px;
+        color: #000000;
+    }
+
+
+
+
+
+
+
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 999px) {
+
+    .about_wrapper{
+        padding: 0 16px 0 14px;
+    }
+
+
+    .about_heading{
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: black;
+        padding: 32px 0px 32px 0px;
+
+    }
+    .about_cover1{
+        width: 400px;
+        height: auto;
+        object-fit: contain;
+        margin-bottom: 24px;
+    }
+    .about_cover{
+        align-items: center;
+    }
+
+    .about_des1{
+        font-family: 'Lato',sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 0.06em;
+        padding-top: 16px;
+        color: #1d1d1d;
+    }
+
+
+    .quote{
+        font-family: 'Lato',sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 0.05em;
+        padding-top: 16px;
+        color: #000000;
+    }
+
+    .space{
+        height: 80px !important;
+    }
+
+
+
+
+
+
+}
+@media only screen and (min-width: 1000px) and (max-width: 1280px) {
+
+    .about_wrapper{
+        padding: 0 24px 0 24px;
+    }
+
+
+    .about_heading{
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: black;
+        padding: 48px 0px 48px 0px;
+
+    }
+    .about_cover1{
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        margin-bottom: 24px;
+    }
+    .about_cover{
+        align-items: center;
+    }
+
+    .about_des1{
+        font-family: 'Lato',sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.06em;
+        color: #1d1d1d;
+    }
+
+
+    .quote{
+        font-family: 'Lato',sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.05em;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        color: #000000;
+    }
+
+    .space{
+        height: 80px !important;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+@media only screen and (min-width: 1281px) {
+
+    .about_wrapper{
+        padding: 0 60px 0 60px;
+    }
+
+
+    .about_heading{
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 22px;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: black;
+        padding: 56px 0px 56px 0px;
+
+    }
+    .about_cover1{
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        margin-bottom: 24px;
+    }
+    .about_cover{
+        align-items: center;
+    }
+
+    .about_des1{
+        font-family: 'Lato',sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: 0.07em;
+        color: #1d1d1d;
+    }
+
+    .quote{
+        font-family: 'Lato',sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 20px;
+        letter-spacing: 0.05em;
+        padding-top: 56px;
+        padding-bottom: 56px;
+        color: #000000;
+    }
+
+    .space{
+        height: 80px !important;
+    }
+
+
+
+
+
+
+}

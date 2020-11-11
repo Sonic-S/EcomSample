@@ -1,0 +1,962 @@
+
+
+ .banner_b:hover {
+    background-color: #C4242A;
+    color: #F6E701; 
+
+}
+.second_banner_b:hover{
+     background-color: #C4242A;
+    color: #F6E701; 
+}
+/* ========================================================================================================= */
+/* ==========================           MOBILE/TABLET           ============================================ */
+/* ========================================================================================================= */
+
+@media only screen and (max-width: 599px) {
+
+    .slider-holder{
+        width: 100%;
+        background: #f6f2e9;
+        height: 200px;
+    }
+    .carousel, .carousel-slider, .carousel-item{
+        width: 100%;
+        height: 200px !important;
+        min-height: 200px !important;
+        
+    
+    }
+
+.banner{
+    padding-top: 36px;
+    padding-bottom: 36px;
+    justify-content: center;
+    background-color: #f6f2e9;
+    align-items: center;
+}
+.second_banner{
+    padding-top: 56px;
+    padding-bottom: 44px;
+justify-content: center;
+    background-color: #f6f2e9;
+    align-items: center;
+}
+
+.b_image img{
+    height: 112px;
+    width: 152px;
+    margin-right: 21px;
+}
+.second_banner_image img{
+    height: 84px;
+    width: 155px;
+    margin-right: 21px;
+}
+.headings, .second_b_headings{
+    margin-left: 18px;
+}
+.authentic{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 10px;
+    letter-spacing: 0.02em;
+    color: #D2676C;
+    padding-bottom: 22px;
+    
+}
+
+.heading_main, .second_b_heading_main {
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+letter-spacing: 0.02em;
+}
+
+.para_head, .second_b_para_head{
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 7px;
+line-height: 8px;
+letter-spacing: 0.02em;
+color:#1F1F1F;
+margin-top: 9px;
+padding-right: 20px;
+margin-bottom: 11px;
+
+}
+
+.banner_b, .second_banner_b{
+width: 79px;
+height: 17px;
+border: 1px solid #C4242A;
+border-radius: 15px;
+background-color: #f6f2e9;
+font-family: 'Lato', sans-serif ;
+font-style: normal;
+font-weight: 600;
+font-size: 8px;
+line-height: 10px;
+color: #C4242A ;
+letter-spacing: 0.02em;
+}
+
+.featured, .bestsellers, .all_p{
+    background-color: white;
+    padding-left: 12px;
+    padding-bottom: 40px;
+}
+.featured_1, .all_p_1, .bs_1{
+    align-items: center;
+    padding-right: 12px;
+    padding-top: 33px;
+}
+.featured_1_1, .collections1_1, .all_p_1_1, .bs_1_1 {
+    font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+/* line-height: 14px; */
+letter-spacing: 0.02em;
+
+color: #C5242A;
+}
+
+.featured_1_2, .collections1_2, .all_p_1_2, .bs_1_2 {
+    font-family: 'Lato', sans-serif ;
+font-style: normal;
+font-weight: bold;
+font-size: 8px;
+line-height: 10px;
+display: flex;
+
+letter-spacing: 0.02em;
+
+color: #AA9B12;
+
+}
+
+
+
+
+
+.featured_1, .collections1, .all_p_1, .bs_1 {
+    justify-content: space-between;
+}
+.fprods, .aprods, .bprods{
+    overflow-x: scroll;
+    align-items: center;
+}
+.fprods_1, .aprods_1, .bprods_1{
+    min-width: 25%;
+    min-height: 10vh;
+    margin-right: 16px;
+    
+}
+.fprods_1 img, .aprods_1 img, .bprods_1 img {
+    width: 100%;
+    
+}
+
+.fprods_1 p, .pname, .bprods_1 p{
+
+    font-size: 9px;
+    font-family: 'Lato', sans-serif ;
+    letter-spacing: 0.02em;
+
+}
+.rate, .prate{
+    font-family: 'Lato', sans-serif ;
+font-style: normal;
+font-weight: 600;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 0.02em;
+color: #000000;
+}
+.collections1{
+    padding: 16px 12px 32px;
+    
+}
+.collections2{
+    padding: 0px 12px;
+}
+
+.collections2_1, .collections2_2 {
+    justify-content: space-between;
+    margin-bottom: 16px;
+
+}
+
+.collections2_1_1, .collections2_1_2, .collections2_2_1, .collections2_2_2{
+    width: 47.7%;
+    height:85px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    align-items: center;
+}
+.collections2_1_1{
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/04/14/33/food-2580200_1280.jpg);
+}
+.collections2_1_2{
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/10/18/14/indian-sweets-2625911_1280.jpg);
+}
+.collections2_2_1{
+    background-image: url(https://cdn.pixabay.com/photo/2018/06/25/16/55/potato-3497386_1280.jpg);
+}
+.collections2_2_2{
+    background-image: url(https://cdn.pixabay.com/photo/2015/11/19/20/17/christmas-cookies-1051884_1280.jpg);
+}
+.color{
+    width: 100%;
+    height: 100%;
+    background: white;
+    opacity: 0.4;
+    position: absolute;
+
+}
+.cb1, .cb2, .cb3, .cb4{
+    z-index: 2;
+    font-family: 'Lato', sans-serif ;
+    font-weight: 700;
+    font-size: 10px;
+    letter-spacing: 0.02em;
+    color: #C1262E;
+    background-color: #FEE400;
+    border: none;
+    padding: 5px 8px;
+}
+
+
+
+.pname{
+    text-overflow: ellipsis;
+}
+
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 999px){
+    .slider-holder{
+        width: 100%;
+        background: #f6f2e9;
+        height: 200px;
+    }
+    .carousel, .carousel-slider, .carousel-item{
+        width: 100%;
+        height: 200px !important;
+        min-height: 200px !important;
+        
+    
+    }
+
+.banner{
+    padding-top: 36px;
+    padding-bottom: 36px;
+    justify-content: center;
+    background-color: #f6f2e9;
+    align-items: center;
+}
+.second_banner{
+    padding-top: 56px;
+    padding-bottom: 44px;
+    justify-content: center;
+    background-color: #f6f2e9;
+    align-items: center;
+}
+
+.b_image img{
+    height: auto;
+    width: 300px;
+}
+.second_banner_image img{
+    height: auto;
+    width: 250px;
+}
+.second_banner_image, .b_image{
+    margin-left: 40px;
+}
+
+.authentic{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #D2676C;
+    padding-bottom: 22px;
+    
+}
+
+.heading_main, .second_b_heading_main {
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 25px;
+letter-spacing: 0.02em;
+}
+
+.para_head, .second_b_para_head{
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.02em;
+color:#1F1F1F;
+margin-top: 9px;
+padding-right: 20px;
+margin-bottom: 24px;
+
+}
+
+.banner_b, .second_banner_b{
+border: 1px solid #C4242A;
+border-radius: 15px;
+background-color: #f6f2e9;
+font-family: 'Lato', sans-serif ;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 14px;
+color: #C4242A ;
+letter-spacing: 0.02em;
+padding: 8px 16px;
+}
+
+.featured, .bestsellers, .all_p{
+    background-color: white;
+    padding-left: 12px;
+    padding-bottom: 40px;
+}
+.featured_1, .all_p_1, .bs_1{
+    align-items: center;
+    padding-right: 12px;
+    padding-top: 33px;
+}
+.featured_1_1, .collections1_1, .all_p_1_1, .bs_1_1 {
+    font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+/* line-height: 14px; */
+letter-spacing: 0.02em;
+
+color: #C5242A;
+}
+
+.featured_1_2, .collections1_2, .all_p_1_2, .bs_1_2 {
+    font-family: 'Lato', sans-serif ;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 12px;
+display: flex;
+
+letter-spacing: 0.02em;
+
+color: #AA9B12;
+
+}
+
+
+
+
+
+.featured_1, .collections1, .all_p_1, .bs_1 {
+    justify-content: space-between;
+}
+.fprods, .aprods, .bprods{
+    overflow-x: scroll;
+    align-items: center;
+}
+.fprods_1, .aprods_1, .bprods_1{
+    min-width: 215px;
+    min-height: 230px;
+    height: 232px;
+    margin-right: 16px;
+    
+}
+.fprods_1 img, .aprods_1 img, .bprods_1 img {
+    width: 75%;
+    height: auto;
+    object-fit: contain;
+    
+}
+
+
+.fprods_1 p, .pname, .bprods_1 p{
+
+    font-size: 12px;
+    font-family: 'Lato', sans-serif ;
+    letter-spacing: 0.02em;
+    width: 200px;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+.rate, .prate{
+    font-family: 'Lato', sans-serif ;
+font-style: normal;
+font-weight: 600;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 0.02em;
+color: #000000;
+}
+.collections1{
+    padding: 16px 12px 32px;
+    
+}
+.collections2{
+    padding: 0px 12px;
+}
+
+.collections2_1, .collections2_2 {
+    justify-content: space-between;
+    margin-bottom: 32px;
+
+}
+
+.collections2_1_1, .collections2_1_2, .collections2_2_1, .collections2_2_2{
+    width: 48%;
+    height:120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    align-items: center;
+}
+.collections2_1_1{
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/04/14/33/food-2580200_1280.jpg);
+}
+.collections2_1_2{
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/10/18/14/indian-sweets-2625911_1280.jpg);
+}
+.collections2_2_1{
+    background-image: url(https://cdn.pixabay.com/photo/2018/06/25/16/55/potato-3497386_1280.jpg);
+}
+.collections2_2_2{
+    background-image: url(https://cdn.pixabay.com/photo/2015/11/19/20/17/christmas-cookies-1051884_1280.jpg);
+}
+.color{
+    width: 100%;
+    height: 100%;
+    background: white;
+    opacity: 0.4;
+    position: absolute;
+
+}
+.cb1, .cb2, .cb3, .cb4{
+    z-index: 2;
+    font-family: 'Lato', sans-serif ;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.02em;
+    color: #C1262E;
+    background-color: #FEE400;
+    border: none;
+    padding: 5px 8px;
+}
+
+
+
+.pname{
+    text-overflow: ellipsis;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1000px) and (max-width: 1280px) {
+
+
+    
+    .second_b_headings{
+        width: 360px;
+        margin-right: 40px;
+    }
+
+    .banner{
+        padding-top: 100px;
+        padding-bottom: 72px;
+        background-color: #f6f2e9;
+        align-items: center;
+        padding-left: 120px;
+        padding-right: 120px;
+        justify-content: space-between;
+    }
+    .second_banner{
+        padding-top: 112px;
+        padding-bottom: 100px;
+        padding-left: 120px;
+        padding-right: 120px;
+        justify-content: space-between;
+        background-color: #f6f2e9;
+        align-items: center;
+    }
+    .second_banner_image img{
+        height: auto;
+        width: 490px;
+        
+    }
+    .authentic{
+        color: #C1262E;
+        font-size: 16px;
+        letter-spacing: 0.02rem;
+        font-family: 'Lato', sans-serif;
+        margin-bottom: 32px;
+    
+    }
+    .heading_main, .second_b_heading_main{
+        font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 0.02rem;
+    font-family: 'Lato', sans-serif;
+
+    }
+    .b_image img{
+        width: 500px;
+        height: auto;
+        margin-left: 40px;
+        
+    
+    }
+    .para_head, .second_b_para_head{
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 0.02rem;
+        /* margin-left: 48px; */
+        font-family: 'Lato', sans-serif;
+        margin: 9px 18px 45px 0px;
+    
+    }
+
+    .banner_b, .second_banner_b{
+        width: 160px;
+        /* height: 17px; */
+        border: 1px solid #C4242A;
+        border-radius: 30px;
+        background-color: #f6f2e9;
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 10px;
+        color: #C4242A;
+        letter-spacing: 0.02em;
+        padding: 16px;
+        }
+       
+
+        .featured, .bestsellers, .all_p {
+            background-color: white;
+            padding-left: 32px;
+            padding-bottom: 80px;
+        }
+    .featured_1, .bs_1, .all_p_1, .collections1{
+        align-items: center;
+        padding-right: 32px;
+        padding-top: 72px;
+        justify-content: space-between;
+        padding-bottom: 60px;
+    }
+    .featured_1_1, .bs_1_1, .all_p_1_1, .collections1_1{
+        font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    /* line-height: 14px; */
+    letter-spacing: 0.02em;
+    
+    color: #C5242A;
+    }
+    .featured_1_2, .bs_1_2, .all_p_1_2, .collections1_2 {
+        font-family: 'Lato', sans-serif ;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 10px;
+    letter-spacing: 0.02em;
+    color: #AA9B12;
+    
+    }
+    .fprods, .aprods, .bprods{
+        margin-right: 16px;
+        overflow-x: scroll;
+        align-items: center;
+    }
+    .fprods_1, .aprods_1, .bprods_1{
+        min-width: 23%;
+        min-height: 10vh;
+        
+    }
+    .fprods_1 img, .aprods_1 img, .bprods_1 img {
+        width: 75%;
+        
+    }
+    
+    .fprods_1 p, .pname, .bprods_1 p{
+    
+        font-size: 18px;
+        font-family: 'Lato', sans-serif ;
+        letter-spacing: 0.02em;
+    
+    }
+    .rate{
+        font-family: 'Lato', sans-serif ;
+        font-weight: 600;
+        font-size: 20px;
+
+    }
+
+    .fprods::-webkit-scrollbar {
+        display: none;
+      }
+    .bprods::-webkit-scrollbar {
+        display: none;
+      }
+    .aprods::-webkit-scrollbar {
+        display: none;
+      }
+      
+    .collections {
+        padding-left: 32px;
+    }
+
+
+    .collections2_1, .collections2_2{
+        padding-right: 32px;
+        justify-content: space-between;
+    }
+.collections2_1_1, .collections2_1_2, .collections2_2_1, .collections2_2_2{
+    width: 49%;
+    height:200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    align-items: center;
+}
+.collections2_1_1{
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/04/14/33/food-2580200_1280.jpg);
+}
+.collections2_1_2{
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/10/18/14/indian-sweets-2625911_1280.jpg);
+}
+.collections2_2_1{
+    background-image: url(https://cdn.pixabay.com/photo/2018/06/25/16/55/potato-3497386_1280.jpg);
+}
+.collections2_2_2{
+    background-image: url(https://cdn.pixabay.com/photo/2015/11/19/20/17/christmas-cookies-1051884_1280.jpg);
+}
+.color{
+    width: 100%;
+    height: 100%;
+    background: white;
+    opacity: 0.4;
+    position: absolute;
+
+}
+.cb1, .cb2, .cb3, .cb4{
+    z-index: 2;
+    font-family: 'Lato', sans-serif ;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    color: #C1262E;
+    background-color: #FEE400;
+    border: none;
+    padding: 10px 10px;
+}
+
+
+.collections2_2{
+    padding-top: 22px;
+    padding-bottom: 96px;
+
+}
+
+
+
+.space{
+    height: 20vh;
+}
+
+}
+
+
+@media only screen and (min-width: 1281px) {
+   
+   
+    
+    .second_b_headings{
+        width: 360px;
+        margin-right: 40px;
+    }
+
+    .banner{
+        padding-top: 100px;
+        padding-bottom: 72px;
+        background-color: #f6f2e9;
+        align-items: center;
+        padding-left: 150px;
+        padding-right: 150px;
+        justify-content: space-between;
+    }
+    .second_banner{
+        padding-top: 112px;
+        padding-bottom: 100px;
+        padding-left: 150px;
+        padding-right: 150px;
+        justify-content: space-between;
+        background-color: #f6f2e9;
+        align-items: center;
+    }
+    .second_banner_image img{
+        height: auto;
+        width: 490px;
+        
+    }
+    .authentic{
+        color: #C1262E;
+        font-size: 16px;
+        letter-spacing: 0.02rem;
+        font-family: 'Lato', sans-serif;
+        margin-bottom: 32px;
+    
+    }
+    .heading_main, .second_b_heading_main{
+        font-size: 48px;
+    font-weight: 600;
+    letter-spacing: 0.02rem;
+    font-family: 'Lato', sans-serif;
+
+    }
+    .b_image img{
+        width: 500px;
+        height: auto;
+        margin-left: 40px;
+        
+    
+    }
+    .para_head, .second_b_para_head{
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: 0.02rem;
+        /* margin-left: 48px; */
+        font-family: 'Lato', sans-serif;
+        margin: 9px 18px 45px 0px;
+    
+    }
+
+    .banner_b, .second_banner_b{
+        width: 160px;
+        /* height: 17px; */
+        border: 1px solid #C4242A;
+        border-radius: 30px;
+        background-color: #f6f2e9;
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 10px;
+        color: #C4242A;
+        letter-spacing: 0.02em;
+        padding: 16px;
+        }
+
+
+    .featured, .bestsellers, .all_p{
+        background-color: white;
+        padding-left: 72px;
+        padding-bottom: 80px;
+    }
+    .featured_1, .bs_1, .all_p_1, .collections1{
+        align-items: center;
+        padding-right: 72px;
+        padding-top: 72px;
+        justify-content: space-between;
+        padding-bottom: 60px;
+    }
+    .featured_1_1, .bs_1_1, .all_p_1_1, .collections1_1{
+        font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    /* line-height: 14px; */
+    letter-spacing: 0.02em;
+    
+    color: #C5242A;
+    }
+    .featured_1_2, .bs_1_2, .all_p_1_2, .collections1_2 {
+        font-family: 'Lato', sans-serif ;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 10px;
+    letter-spacing: 0.02em;
+    color: #AA9B12;
+    
+    }
+    .fprods, .aprods, .bprods{
+        margin-right: 16px;
+        overflow-x: scroll;
+        align-items: center;
+    }
+    .fprods_1, .aprods_1, .bprods_1{
+        min-width: 23%;
+        min-height: 10vh;
+        
+    }
+    .fprods_1 img, .aprods_1 img, .bprods_1 img {
+        width: 75%;
+        
+    }
+    
+    .fprods_1 p, .pname, .bprods_1 p{
+    
+        font-size: 18px;
+        font-family: 'Lato', sans-serif ;
+        letter-spacing: 0.02em;
+    
+    }
+    .rate{
+        font-family: 'Lato', sans-serif ;
+        font-weight: 600;
+        font-size: 20px;
+
+    }
+
+    .fprods::-webkit-scrollbar {
+        display: none;
+      }
+    .bprods::-webkit-scrollbar {
+        display: none;
+      }
+    .aprods::-webkit-scrollbar {
+        display: none;
+      }
+      
+    .collections {
+        padding-left: 72px;
+    }
+
+
+    .collections2_1, .collections2_2{
+        padding-right: 72px;
+        justify-content: space-between;
+    }
+.collections2_1_1, .collections2_1_2, .collections2_2_1, .collections2_2_2{
+    width: 49%;
+    height:200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    align-items: center;
+}
+.collections2_1_1{
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/04/14/33/food-2580200_1280.jpg);
+}
+.collections2_1_2{
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/10/18/14/indian-sweets-2625911_1280.jpg);
+}
+.collections2_2_1{
+    background-image: url(https://cdn.pixabay.com/photo/2018/06/25/16/55/potato-3497386_1280.jpg);
+}
+.collections2_2_2{
+    background-image: url(https://cdn.pixabay.com/photo/2015/11/19/20/17/christmas-cookies-1051884_1280.jpg);
+}
+.color{
+    width: 100%;
+    height: 100%;
+    background: white;
+    opacity: 0.4;
+    position: absolute;
+
+}
+.cb1, .cb2, .cb3, .cb4{
+    z-index: 2;
+    font-family: 'Lato', sans-serif ;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    color: #C1262E;
+    background-color: #FEE400;
+    border: none;
+    padding: 10px 10px;
+}
+
+
+.collections2_2{
+    padding-top: 22px;
+    padding-bottom: 96px;
+
+}
+
+
+
+.space{
+    height: 20vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+

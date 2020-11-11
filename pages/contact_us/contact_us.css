@@ -1,0 +1,313 @@
+
+
+/* ========================================================================================================= */
+/* ==========================           MOBILE/TABLET           ============================================ */
+/* ========================================================================================================= */
+
+@media only screen and (max-width: 599px) {
+
+
+.contact_us_heading{
+    width: 100%;
+    text-align: center;
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    padding: 32px 0 0 0;
+
+
+}
+.branch_heading, .email_heading, .contact{
+    width: 100%;
+    text-align: center;
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    padding: 24px 0 8px 0;
+}
+.email_heading{
+    padding: 16px 0 8px 0;
+}
+.contact_us_img{
+    align-items: center;
+}
+.contact_us_img1{
+    width: 304px;
+    height: auto;
+    object-fit: contain;
+
+}
+.sub_heading, .branch_sub, .email_sub{ 
+    text-align: center;
+}
+.sub_heading1{
+    
+font-family: 'Lato',sans-serif;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+letter-spacing: 0.05em;
+padding: 8px 0 16px 0;
+color: #000000;
+width: 296px;
+}
+
+.branch_sub1{
+    font-family: 'Lato',sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    width: 296px;
+    margin-bottom: 8px;
+}
+
+
+.email_sub{
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    color: #000000;
+
+}
+.contact_b_nos{
+    display: none;
+}
+.contact_b1{
+    background-color: #4FCE5D;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 8px 24px;
+    letter-spacing: 0.07em;
+
+
+}
+    
+.contact_b{
+    width: 100%;
+    margin-bottom: 40px;
+}
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 600px) and (max-width: 999px) {
+
+
+    .contact_us_heading{
+        width: 100%;
+        text-align: center;
+        font-family: 'Lato',sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.02em;
+        color: #000000;
+        padding: 32px 0 0 0;
+    
+    
+    }
+    .branch_heading, .email_heading, .contact{
+        width: 100%;
+        text-align: center;
+        font-family: 'Lato',sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.02em;
+        color: #000000;
+        padding: 24px 0 8px 0;
+    }
+    .email_heading{
+        padding: 16px 0 8px 0;
+    }
+    .contact_us_img{
+        align-items: center;
+    }
+    .contact_us_img1{
+        width: 304px;
+        height: auto;
+        object-fit: contain;
+    
+    }
+    .sub_heading, .branch_sub, .email_sub{ 
+        text-align: center;
+    }
+    .sub_heading1{
+        
+    font-family: 'Lato',sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    padding: 8px 0 16px 0;
+    color: #000000;
+    width: 296px;
+    }
+    
+    .branch_sub1{
+        font-family: 'Lato',sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 0.05em;
+        color: #000000;
+        width: 296px;
+        margin-bottom: 8px;
+    }
+    
+    
+    .email_sub, .contact_b_nos{
+        font-family: 'Lato',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 17px;
+        letter-spacing: 0.05em;
+        color: #000000;
+    
+    }
+    .contact_b1{
+        display: none;
+    
+    }
+        
+    .contact_b{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    }
+
+
+
+
+
+    
+
+
+@media only screen and (min-width: 1000px)  {
+
+    .contact_us_wrapper{
+        padding: 0 23px 100px;
+    }
+    .contact_us_heading{
+        width: 100%;
+        text-align: center;
+        font-family: 'Lato',sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0.02em;
+        color: #000000;
+        padding: 48px 0 0 0;
+    
+    
+    }
+    
+    .branch_heading{
+        width: 100%;
+        text-align: center;
+        font-family: 'Lato',sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+        color: #000000;
+        padding-bottom: 16px;
+    }
+    .email_heading, .contact{
+        width: 100%;
+        text-align: center;
+        font-family: 'Lato',sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+        color: #000000;
+        padding: 16px 0 8px 0;
+    }
+    
+    .contact_us_img{
+        align-items: center;
+    }
+    .contact_us_img1{
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    
+    }
+    .sub_heading{
+        text-align: center;
+    }
+     .branch_sub, .email_sub{ 
+        text-align: left;
+    }
+    .sub_heading1{
+        
+    font-family: 'Lato',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    padding: 16px 0 56px 0;
+    color: #000000;
+
+    }
+    
+    .branch_sub1{
+        font-family: 'Lato',sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.05em;
+        color: #000000;
+        width: 300px;
+        text-align: center;
+    }
+    
+    
+    .email_sub, .contact_b_nos{
+        font-family: 'Lato',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.05em;
+        color: #000000;
+        text-align: center;
+    
+    }
+    .contact_b1{
+        display: none;
+    
+    }
+        
+    .contact_b{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    }

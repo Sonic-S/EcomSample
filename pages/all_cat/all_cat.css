@@ -1,0 +1,507 @@
+.collections2_1_1{
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/04/14/33/food-2580200_1280.jpg);
+}
+.collections2_1_2{
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/10/18/14/indian-sweets-2625911_1280.jpg);
+}
+.collections2_2_1{
+    background-image: url(https://cdn.pixabay.com/photo/2018/06/25/16/55/potato-3497386_1280.jpg);
+}
+.collections2_2_2{
+    background-image: url(https://cdn.pixabay.com/photo/2015/11/19/20/17/christmas-cookies-1051884_1280.jpg);
+}
+.color{
+    width: 100%;
+    height: 100%;
+    background: white;
+    opacity: 0.4;
+    position: absolute;
+
+}
+
+/* ========================================================================================================= */
+/* ==========================           MOBILE/TABLET           ============================================ */
+/* ========================================================================================================= */
+
+@media only screen and (max-width: 599px) {
+
+
+.banner, .red{
+    padding-top: 36px;
+    padding-bottom: 36px;
+
+    background-color: #f6f2e9;
+    align-items: center;
+}
+
+
+.b_image img{
+    height: 119px;
+    width: 159px;
+    margin-right: 16px;
+}
+
+.headings{
+    margin-left: 18px;
+}
+.authentic{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 10px;
+    letter-spacing: 0.02em;
+    color: #D2676C;
+    padding-bottom: 16px;
+    
+}
+
+.heading_main {
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 17px;
+letter-spacing: 0.02em;
+color: black;
+}
+.slider-holder{
+    width: 100%;
+    background: #f6f2e9;
+    height: 200px;
+}
+.carousel, .carousel-slider, .carousel-item{
+    width: 100%;
+    height: 200px !important;
+    min-height: 200px !important;
+    
+
+}
+.item1,.item2,.item3{
+    justify-content: space-between;
+    align-items: center;
+}
+.para_head{
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 8px;
+line-height: 8px;
+letter-spacing: 0.05em;
+color:#1F1F1F;
+margin-top: 8px;
+padding-right: 16px;
+margin-bottom: 10px;
+
+}
+
+
+
+
+
+
+.collections{
+    padding: 16px 12px 32px;
+    
+}
+
+.collections1_1{
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+.collections2_1, .collections2_2 {
+    justify-content: space-between;
+    margin-bottom: 16px;
+
+}
+
+.collections2_1_1, .collections2_1_2, .collections2_2_1, .collections2_2_2{
+    width: 47.7%;
+    height:85px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    align-items: center;
+}
+
+.cb1, .cb2, .cb3, .cb4{
+    z-index: 2;
+    font-family: 'Lato', sans-serif ;
+    font-weight: 700;
+    font-size: 10px;
+    letter-spacing: 0.02em;
+    color: #C1262E;
+    background-color: #FEE400;
+    border: none;
+    padding: 5px 8px;
+}
+
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 999px){
+
+    .banner, .red{
+        padding-top: 36px;
+        padding-bottom: 36px;
+    
+        background-color: #f6f2e9;
+        align-items: center;
+    }
+    .b_image{
+        margin-left:64px ;
+    }
+    
+    .b_image img{
+        height: auto;
+        width: 200px;
+        
+    }
+    
+    
+    .authentic{
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: 0.02em;
+        color: #D2676C;
+        padding-bottom: 24px;
+        
+    }
+    
+    .heading_main {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: black;
+    }
+    .slider-holder{
+        width: 100%;
+        background: #f6f2e9;
+        height: 200px;
+    }
+    .carousel, .carousel-slider, .carousel-item{
+        width: 100%;
+        height: 250px !important;
+        min-height: 200px !important;
+        
+    
+    }
+    .item1,.item2,.item3{
+        justify-content: center;
+        align-items: center;
+    }
+    .para_head{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.05em;
+    color:#1F1F1F;
+    margin-top: 16px;
+    padding-right: 16px;
+    margin-bottom: 24px;
+    width: 200px;
+    
+    }
+    
+    
+    
+    
+    
+    
+    .collections{
+        padding: 24px 12px 32px;
+        
+    }
+    
+    .collections1_1{
+        font-size: 16px;
+        margin-bottom: 18px;
+    }
+    .collections2_1, .collections2_2 {
+        justify-content: space-between;
+        margin-bottom: 24px;
+    
+    }
+    
+    .collections2_1_1, .collections2_1_2, .collections2_2_1, .collections2_2_2{
+        width: 48%;
+        height: 120px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        align-items: center;
+    }
+    
+    .cb1, .cb2, .cb3, .cb4{
+        z-index: 2;
+        font-family: 'Lato', sans-serif ;
+        font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 0.02em;
+        color: #C1262E;
+        background-color: #FEE400;
+        border: none;
+        padding: 6px 10px;
+        cursor: pointer;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 1000px) and (max-width: 1280px) {
+
+    .banner, .red{
+        padding-top: 64px;
+        padding-bottom: 36px;
+    
+        background-color: #f6f2e9;
+        align-items: center;
+    }
+    .b_image{
+        margin-left:64px ;
+    }
+    
+    .b_image img{
+        height: auto;
+        width: 300px;
+        
+    }
+    
+    
+    .authentic{
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        letter-spacing: 0.02em;
+        color: #D2676C;
+        padding-bottom: 24px;
+        
+    }
+    
+    .heading_main {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 0.02em;
+    color: black;
+    }
+    .slider-holder{
+        width: 100%;
+        background: #f6f2e9;
+        height: 200px;
+    }
+    .carousel, .carousel-slider, .carousel-item{
+        width: 100%;
+        height: 350px !important;
+        min-height: 200px !important;
+        
+    
+    }
+    .item1,.item2,.item3{
+        justify-content: center;
+        align-items: center;
+    }
+    .para_head{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    color:#1F1F1F;
+    margin-top: 24px;
+    padding-right: 16px;
+    margin-bottom: 24px;
+    width: 250px;
+    
+    
+    }
+    
+    
+    
+    
+    
+    .collections{
+        padding: 32px 24px 32px;
+        
+    }
+    
+    .collections1_1{
+        font-size: 18px;
+        margin-bottom: 24px;
+    }
+    .collections2_1, .collections2_2 {
+        justify-content: space-between;
+        margin-bottom: 32px;
+    
+    }
+    
+    .collections2_1_1, .collections2_1_2, .collections2_2_1, .collections2_2_2{
+        width: 48%;
+        height: 150px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        align-items: center;
+    }
+    
+    .cb1, .cb2, .cb3, .cb4{
+        z-index: 2;
+        font-family: 'Lato', sans-serif ;
+        font-weight: 700;
+        font-size: 16px;
+        letter-spacing: 0.02em;
+        color: #C1262E;
+        background-color: #FEE400;
+        border: none;
+        padding: 8px 12px;
+        cursor: pointer;
+    }
+
+
+
+
+
+
+
+}
+
+@media only screen and (min-width: 1281px) {
+
+    .banner, .red{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    
+        background-color: #f6f2e9;
+        align-items: center;
+    }
+    .b_image{
+        margin-left: 72px ;
+    }
+    
+    .b_image img{
+        height: auto;
+        width: 370px;
+        
+    }
+    
+    
+    .authentic{
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        letter-spacing: 0.02em;
+        color: #D2676C;
+        padding-bottom: 32px;
+        
+    }
+    
+    .heading_main {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 50px;
+    letter-spacing: 0.02em;
+    color: black;
+    }
+    .slider-holder{
+        width: 100%;
+        background: #f6f2e9;
+        height: 200px;
+    }
+    .carousel, .carousel-slider, .carousel-item{
+        width: 100%;
+        height: 450px !important;
+        min-height: 200px !important;
+        
+    
+    }
+    .item1,.item2,.item3{
+        justify-content: center;
+        align-items: center;
+    }
+    .para_head{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    color:#1F1F1F;
+    margin-top: 32px;
+    padding-right: 16px;
+    margin-bottom: 32px;
+    width: 300px;
+    
+    
+    }
+    
+    
+    
+    
+    
+    .collections{
+        padding: 64px 60px 32px;
+        
+    }
+    
+    .collections1_1{
+        font-size: 20px;
+        margin-bottom: 32px;
+    }
+    .collections2_1, .collections2_2 {
+        justify-content: space-between;
+        margin-bottom: 40px;
+    
+    }
+    
+    .collections2_1_1, .collections2_1_2, .collections2_2_1, .collections2_2_2{
+        width: 48%;
+        height: 180px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        align-items: center;
+    }
+    
+    .cb1, .cb2, .cb3, .cb4{
+        z-index: 2;
+        font-family: 'Lato', sans-serif ;
+        font-weight: 700;
+        font-size: 16px;
+        letter-spacing: 0.02em;
+        color: #C1262E;
+        background-color: #FEE400;
+        border: none;
+        padding: 8px 12px;
+        cursor: pointer;
+    }
+
+
+
+
+
+
+
+
+}
