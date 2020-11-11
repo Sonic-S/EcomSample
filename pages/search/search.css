@@ -1,3 +1,4 @@
+
 .disp_none{
     display: none;
 }
@@ -8,7 +9,16 @@
 @media only screen and (max-width: 599px) {
 
     
-
+    html{
+        min-height: 100%;
+        position: relative;
+    }
+    
+    footer{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
     .greetings{
         padding: 0px 12px ;
     }
